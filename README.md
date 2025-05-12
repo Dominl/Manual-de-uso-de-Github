@@ -26,11 +26,6 @@ Funciona como un servicio que aloja repositorios basados en Git, un sistema de c
 Gracias a Git, GitHub permite a los desarrolladores trabajar en equipo, realizar cambios simultáneamente y mantener un historial detallado de cada modificación realizada en el código. 
 Esto facilita el seguimiento del progreso del proyecto, la gestión de versiones y la integración de nuevas funciones de forma segura y controlada.
 
-<div style="text-align: center;">
-    <img src="https://pngimg.com/uploads/github/github_PNG40.png " 
-         alt="GITHUB LOGO" 
-         style="width:200px; border: 5px solid red; border-radius: 10px;"/>
-</div>
 
 <h1 style="color: #E74C3C;">📝 2. Características de Github: </h1>
 
