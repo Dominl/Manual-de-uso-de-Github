@@ -1,17 +1,6 @@
 # Manual-de-uso-de-Github
 Trabajo Colaborativo
 
-<table style="background-color: #f0f0f0; padding: 10px; width: auto;">
-<tr>
-<td style="background-color: #ffffff; vertical-align: middle;"><img src="https://th.bing.com/th/id/OIP.zZshkvEYWRVv1orlaBMmjwHaHa?w=155&h=180&c=7&r=0&o=5&pid=1.7" alt="Logo" style="width: 150px;"/></td>
-<td style="text-align: left; vertical-align: middle; padding-left: 10px;">
-<h2 style="color: #2c3e50; margin: 5;">UNIVERSIDAD NACIONAL AGRARIA LA MOLINA</h2>  
-<h3 style="color: #2c3e50; margin: 5;">FACULTAD DE ECONOMÍA Y PLANIFICACIÓN</h3>  
-<h5 style="color: #2c3e50; margin: 5;">DEPARTAMENTO DE ESTADÍSTICA E INFORMÁTICA</h5>
-</td>
-</tr>
-</table>
-
 <center>
   <h1 style="color:yellow; font-family:Georgia, sans-serif; 
              background-color:green; padding:10px; border-radius:10px;">
