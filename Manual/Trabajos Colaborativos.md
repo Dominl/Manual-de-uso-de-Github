@@ -34,10 +34,14 @@ Cualquiera con acceso a la escritura de un repositorio, o que sea colaborador de
 Pull request es una solicitud para que los cambios realizados del repositorio desde una rama nueva sean integrados a la rama principal. El hecho de que se tenga que pasar por una revisión garantiza que el repositorio contenga en trabajo final.
 #### Creación de un Pull requests
 1. Una vez que se suben los cambios a nuestra rama en Github, ubicamos la pestaña "Pull requests".
+![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Manual/Imagenes/pullrequests1.png)
 2. Seleccionar nuevo pull requests, se selecciona las ramas (main, mi-rama)  donde se compararan las modificaciones y creamos una pull requests.
+![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Manual/Imagenes/pullrequests2.png)
 3. Llegado a este paso podremos visualizar en la pestañas superiores: los archivos modificados, los commits realizados en el git, los chequest y la conversación.
+![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Manual/Imagenes/pullrequests3.png)
 4. Cuando se halla revisado los cambios nuevos y de no haber **conflictos** procedemos a fusionar las ramas en **mergen pull request**. 
 5. Confirmar la fusión y por ultimo eliminamos la rama.
+![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Manual/Imagenes/pullrequests4.png)
 > Nota: Para prevenir conflictos lo mas adecuado es actualizar el repositorio con su última versión, **git pull origin main**.
 #### Fusión de Ramas
 Cuando fusionamos nuestra ramas se esta llevando todos los cambios realizados y historial a la rama principal (main)
@@ -63,4 +67,3 @@ Si se desea contribuir con el repositorio original debemos solicitar un pull req
 ### ¿Se realizaron cambios en el repositorio original?
 
 Se debe abrir el fork del repositorio e ir a :arrows_counterclockwise: syn fork, se dará la opción de comparas los cambios que se realizaron, se realiza la sincronización que traerá los cambios del repositorio original a mi fork.
-
