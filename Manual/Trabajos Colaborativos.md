@@ -34,4 +34,4 @@ $ git push origin Dhalia
 > Nota: Es importante tener en cuenta, como se está realizando un trabajo colaborativo se debe ir actualizando la rama ante los posibles cambios realizados por el resto de colaboradores. Se debe cambiar la rama a principal **git checkout main** y actualizar **git pull origin main**
 
 Antes de contribuir a nuestro al repositorio, nuestros cambios deben pasar por un Pull Requests.
-##¿Qué es un Pull Requests? 
+## ¿Qué es un Pull Requests? 
