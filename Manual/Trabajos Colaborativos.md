@@ -34,4 +34,12 @@ $ git push origin Dhalia
 > Nota: Es importante tener en cuenta, como se está realizando un trabajo colaborativo se debe ir actualizando la rama ante los posibles cambios realizados por el resto de colaboradores. Se debe cambiar la rama a principal **git checkout main** y actualizar **git pull origin main**
 
 Antes de contribuir a nuestro al repositorio, nuestros cambios deben pasar por un Pull Requests.
-## ¿Qué es un Pull Requests? 
+## ¿Qué es un Pull Requests?
+Cualquiera con acceso a la escritura de un repositorio, o que sea colaborador del mismo, puede usar un pull requests. Para acceder a esta acción es necesario crear una rama diferente del **main**.
+
+> Nota: En caso de no contar con el acceso a la escritura o no ser colaborador, se puede crear un fork para trabajar con una "copia" del repositorio
+
+Pull request es una solicitud para que los cambios realizados del repositorio desde una rama nueva sean integrados a la rama principal. El hecho de que se tenga que pasar por una revisión garantiza que el repositorio contenga en trabajo final.
+#### Creación de un Pull requests
+1. Una vez subido los cambios ubicamos la pestaña "Pull requests".
+2. Seleccionamos las ramas que se compararan y creamos un nuevo Pull requests.
