@@ -1,0 +1,18 @@
+## Supongamos que ya aplicamos el proceso de proteger una rama
+## entonces si alguien desea agregar una nueva seccion al sitio, 
+## estos son los pasos que realizará:
+
+#Crear una rama:
+git checkout -b feature/nueva-seccion
+
+#Hace cambios y lo sube:
+git commit -am "Agrega nueva sección de contacto"
+git push origin feature/nueva-seccion
+
+#Abre un Pull Request (PR) hacia main en GitHub.
+
+🔐 Resultado
+- Nadie pudo hacer push directo a main.
+- El código fue revisado por otro desarrollador.
+- Las pruebas pasaron antes del merge.
+- La rama main se mantiene estable y segura.
