@@ -1,23 +1,16 @@
 # Trabajos Colaborativos  
 Para comenzar un trabajo colaborativo en GitHub primero se debe crear un repositorio y añadir a tus colaboradores. 
-Se procede a clonar el repositorio en nuestro escritorio local 
-<pre>  
+Se procede a clonar el repositorio en nuestro escritorio local.
+<pre> 
 <code class="language-bash">
-$ cd desktop
+#Se procede a clonar el repositorio en nuestro escritorio local.  
+cd desktop
 #Clonación de repositorio 
-$ git clone https://github.com/Dominl/Manual-de-uso-de-Github.git 
-</code>  
-</pre>
-Se crea una rama para poder usar el Pull Requests
-<pre>  
-<code class="language-bash">
-$ git checkout Dhalia
-</code>  
-</pre>
-Ingresamos a nuestro repositorio para comenzar a realizar los cambios
-<pre>  
-<code class="language-bash">
-$ cd 'Manual-de-uso-de-Github'
+git clone https://github.com/Dominl/Manual-de-uso-de-Github.git 
+#Se crea una rama para poder usar el Pull Requests
+git checkout Dhalia
+#Ingresamos a nuestro repositorio para comenzar a realizar los cambios
+cd 'Manual-de-uso-de-Github'
 </code>  
 </pre>
 Es importante preparar los cambios del directorio y especificar las actualizaciones que se harán seguimiento con **git add  "archivo "** para preparar multiples archivos **git add .**.
@@ -51,12 +44,21 @@ Cuando fusionamos nuestra ramas se esta llevando todos los cambios realizados y 
 ![Fusión de ramas](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Manual/Imagenes/fusionramas.png) 
 
 Estas solicitudes facilidad colaboración y revisión de un condigo, permitiendo que todos los colaboradores revisen los cambios y se aprueben los que irán al repositorio final.
-## ¿Qué es un Fork?
-Cuando se quiere trabajar libremente o contribuir con el repositorio de otra persona, pero no estamos dentro de su circulo de colaboradores, se puede hacer uso de un fork, que consta de crear una "copia" del contenido original del repositorio.
+## ¿Qué es un Fork o Burificación ?
+Un fork consta de crear una "copia" personal del contenido completo del repositorio de otro usuario.
+Esto se hace:
+* Se quiere trabajar libremente con el repositorio original.
+* Se desea contribuir con el repositorio de otra persona, pero no estamos dentro de su circulo de colaboradores.
 > :eyes: Tener en cuenta: La visibilidad de los fork dependerá si el repositorio es publico, privado o de alguna organización.
+### ¿Como crear un fork?
+1. Entrar al repositorio con el que se quiere trabajar y selecionar fork.
+![Fusión ramas](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Manual/Imagenes/Fork1.png)
+2. Crear la copia personal y listo podras visualizar el fork con tus demas repositorios
+![Fusión ramas](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Manual/Imagenes/Fork2.png)
 
+> Nota: Los cambios que realizados en el fork no afectaran al original. 
 
-Los cambios que realizados en el fork no afectaran al original. Si se quiere que los cambios que realizamos en el fork se visualicen en el repositorio original, se debe solicitar un pull requests.
+Si se desea contribuir con el repositorio original debemos solicitar un pull requests al autor desde el fork creado y modificado, en case de aprobar la solicitud se podrá visualizar en el repositorio original
 
 ### ¿Se realizaron cambios en el repositorio original?
 
