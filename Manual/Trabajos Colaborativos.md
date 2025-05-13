@@ -17,8 +17,8 @@ Finalmente con **git commit -m "mensaje" se guarda los cambios programados  y se
 Estos pasos son importantes para visualizar y acceder al historial de versiones de nuestro repositorio.
 
 Para subir los cambios a GitHub usamos un push
-``` bash
-$ git push origin Dhalia
+```bash
+git push origin Dhalia
 ```
 > Nota: Es importante tener en cuenta, como se está realizando un trabajo colaborativo se debe ir actualizando la rama ante los posibles cambios realizados por el resto de colaboradores. Se debe cambiar la rama a principal ```bash git checkout main``` y actualizar ``` bash git pull origin main```
 
@@ -37,7 +37,7 @@ Pull request es una solicitud para que los cambios realizados del repositorio de
 ![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pullrequest3.png)
 4. Cuando se halla revisado los cambios nuevos y de no haber **conflictos** procedemos a fusionar las ramas en **mergen pull request**. 
 5. Confirmar la fusión y por ultimo eliminamos la rama.
-![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/https://github.com/Dominl/Manual-de-uso-de-Github/Imagenes/pullrequest4.png)
+![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pullrequest4.png)
 > Nota: Para prevenir conflictos lo mas adecuado es actualizar el repositorio con su última versión, **git pull origin main**.
 #### Fusión de Ramas
 Cuando fusionamos nuestra ramas se esta llevando todos los cambios realizados y historial a la rama principal (main)
