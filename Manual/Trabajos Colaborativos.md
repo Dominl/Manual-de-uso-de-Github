@@ -2,21 +2,21 @@
 Para comenzar un trabajo colaborativo en GitHub primero se debe crear un repositorio y añadir a tus colaboradores. 
 Se procede a clonar el repositorio en nuestro escritorio local 
 <pre>  
-<code class="language-bash">pc@DESKTOP-HSUH344 MINGW64 ~
+<code class="language-bash">
 $ cd desktop
-pc@DESKTOP-HSUH344 MINGW64 ~/desktop (main)
+#Clonación de repositorio 
 $ git clone https://github.com/Dominl/Manual-de-uso-de-Github.git 
 </code>  
 </pre>
 Se crea una rama para poder usar el Pull Requests
 <pre>  
-<code class="language-bash">pc@DESKTOP-HSUH344 MINGW64 ~/desktop/Manual-de-uso-de-Github (main)
+<code class="language-bash">
 $ git checkout Dhalia
 </code>  
 </pre>
 Ingresamos a nuestro repositorio para comenzar a realizar los cambios
 <pre>  
-<code class="language-bash">pc@DESKTOP-HSUH344 MINGW64 ~/desktop (Dhalia)
+<code class="language-bash">
 $ cd 'Manual-de-uso-de-Github'
 </code>  
 </pre>
@@ -27,7 +27,7 @@ Estos pasos son importantes para visualizar y acceder al historial de versiones 
 
 Para subir los cambios a GitHub usamos un push
 <pre>  
-<code class="language-bash">pc@DESKTOP-HSUH344 MINGW64 ~/desktop (Dhalia)
+<code class="language-bash">
 $ git push origin Dhalia
 </code>  
 </pre>
