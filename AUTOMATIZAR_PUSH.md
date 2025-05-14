@@ -45,7 +45,8 @@ Crea un archivo de script en la raíz de tu repositorio:
 Si estás en Linux, macOS, o Git Bash en Windows, crea:
 git-auto-push.sh
 
-bash
+<pre> 
+<code class="language-bash">
 Copiar código
 #!/bin/bash
 
@@ -66,6 +67,9 @@ git commit -m "$msg"
 
 echo "Haciendo push a la rama actual..."
 git push
+
+</code>
+</pre>
 
 Hazlo ejecutable:
 
