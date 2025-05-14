@@ -8,9 +8,9 @@
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background-color: #f9f9f9;
+      padding: 0;
+      background-color: #f4f4f4;
       color: #333;
-      line-height: 1.6;
     }
 
     header {
@@ -20,111 +20,67 @@
       text-align: center;
     }
 
-    header h1 {
-      margin: 0;
-    }
-
-    nav {
-      background-color: #0366d6;
-      padding: 1rem;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
     main {
-      max-width: 900px;
+      max-width: 800px;
       margin: 2rem auto;
-      padding: 0 1rem;
       background: white;
+      padding: 2rem;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
     }
 
-    section {
-      padding: 2rem 0;
-      border-bottom: 1px solid #eee;
-    }
-
-    h2 {
+    h1, h2 {
       color: #0366d6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     footer {
       text-align: center;
-      padding: 2rem;
+      margin-top: 2rem;
+      padding: 1rem;
       color: #777;
-    }
-
-    code {
-      background-color: #eee;
-      padding: 2px 5px;
-      border-radius: 4px;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Manual de uso de GitHub 📘</h1>
-    <p>Guía básica para aprender y aplicar buenas prácticas en GitHub</p>
+    <h1>📘 Manual de uso de GitHub</h1>
+    <p>Accede a los archivos y recursos del repositorio</p>
   </header>
 
-  <nav>
-    <a href="#issues">Issues</a>
-    <a href="#ramas-protegidas">Ramas protegidas</a>
-    <a href="#projects">Projects</a>
-    <a href="#pages">GitHub Pages</a>
-  </nav>
-
   <main>
-    <section id="issues">
-      <h2>📝 ¿Qué son los Issues?</h2>
-      <p>Los <strong>Issues</strong> en GitHub permiten reportar errores, proponer mejoras o hacer preguntas. Son muy útiles para organizar el trabajo y dar seguimiento a tareas dentro del repositorio.</p>
-      <p>También pueden asignarse, etiquetarse y vincularse a Pull Requests.</p>
-    </section>
+    <h2>📄 Archivos disponibles</h2>
+    <ul>
+      <li><a href="README.md" target="_blank">README.md</a></li>
+      <li><a href="index.html" target="_blank">index.html</a></li>
+      <li><a href="ramas-protegidas.md" target="_blank">ramas-protegidas.md</a></li>
+      <li><a href="issues.md" target="_blank">issues.md</a></li>
+      <li><a href="projects.md" target="_blank">projects.md</a></li>
+    </ul>
 
-    <section id="ramas-protegidas">
-      <h2>🔒 Ramas protegidas</h2>
-      <p>Una rama protegida en GitHub evita que se hagan cambios directos sin pasar por revisiones. Se usa para mantener el código estable, especialmente en <code>main</code> o <code>master</code>.</p>
-      <p>Permite aplicar reglas como:</p>
-      <ul>
-        <li>Evitar commits directos</li>
-        <li>Requerir pull requests</li>
-        <li>Obligar revisiones de código</li>
-        <li>Ejecutar tests automáticos antes del merge</li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h2>📂 GitHub Projects</h2>
-      <p>Los Projects son tableros tipo Kanban o tablas donde puedes organizar tus tareas, issues y pull requests.</p>
-      <p>Son útiles para planificar y visualizar el progreso de tu equipo o tus propios avances.</p>
-    </section>
-
-    <section id="pages">
-      <h2>🌐 GitHub Pages</h2>
-      <p>GitHub Pages permite alojar sitios web estáticos directamente desde tu repositorio. Puedes usar HTML, CSS o generadores como Jekyll.</p>
-      <p>Para activarlo:</p>
-      <ol>
-        <li>Ir a <strong>Settings &gt; Pages</strong></li>
-        <li>Seleccionar la rama y carpeta (por ejemplo, <code>main</code> y <code>/</code>)</li>
-        <li>Guardar y visitar la URL generada por GitHub</li>
-      </ol>
-    </section>
+    <p>También puedes ver el repositorio completo en <a href="https://github.com/Dominl/Manual-de-uso-de-Github" target="_blank">GitHub</a>.</p>
   </main>
 
   <footer>
-    © 2025 | Manual desarrollado por Dominl usando GitHub Pages
+    © 2025 | Página generada con GitHub Pages
   </footer>
 
 </body>
