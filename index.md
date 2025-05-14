@@ -1,7 +1,3 @@
----
-title: Manual de uso de GitHub
----
-
 # 📘 Manual de uso de GitHub
 
 Bienvenido al manual colaborativo para aprender GitHub desde cero.
