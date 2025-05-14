@@ -38,7 +38,7 @@ Pull request es una solicitud para que los cambios realizados del repositorio de
 4. Cuando se halla revisado los cambios nuevos y de no haber **conflictos** procedemos a fusionar las ramas en **mergen pull request**. 
 5. Confirmar la fusión y por ultimo eliminamos la rama.
 ![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pullrequest4.png)
-> Nota: Para prevenir conflictos lo mas adecuado es actualizar el repositorio con su última versión, **git pull origin main**.
+
 #### Fusión de Ramas
 Cuando fusionamos nuestra ramas se esta llevando todos los cambios realizados y historial a la rama principal (main)
 ![Fusión de ramas](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/fusionramas.png) 
