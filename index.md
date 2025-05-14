@@ -1,15 +1,24 @@
 # 📘 Manual de uso de GitHub
 
-Bienvenido al manual colaborativo para aprender GitHub desde cero.
+Bienvenido  manual colaborativo desarrollado como parte del curso de **Lenguaje de Programación II**.
 
-Este sitio web recopila y presenta información útil sobre el uso de herramientas como ramas, pull requests, forks, GitHub Copilot y más.
-
-## 📂 Contenido del Manual
-
-- 👉 [Introducción a GitHub](./Manual/Introducción%20a%20GitHub.md)
-- 🤖 [GitHub Copilot](./Manual/COPILOT.md)
-- 👥 [Trabajos Colaborativos](./Manual/Trabajos%20Colaborativos.md)
+Este proyecto tiene como objetivo introducir a estudiantes y nuevos usuarios al uso práctico de **GitHub**, una plataforma esencial para el trabajo colaborativo en desarrollo de software.
 
 ---
 
-📌 Proyecto desarrollado por estudiantes para fines educativos.
+## 🧠 ¿Qué encontrarás en este proyecto?
+
+- Conceptos fundamentales como ramas, commits y pull requests
+- Uso de herramientas como **GitHub Copilot** y **Issues**
+- Prácticas recomendadas para trabajar en equipo desde GitHub
+- Documentación dividida en secciones simples y claras
+
+---
+
+## 🎯 Objetivo general
+
+Promover el uso de GitHub como herramienta educativa y profesional para el desarrollo de proyectos, incentivando el trabajo en equipo y el aprendizaje colaborativo.
+
+---
+
+📌 *Este sitio fue construido con GitHub Pages como parte del aprendizaje práctico del curso.*
