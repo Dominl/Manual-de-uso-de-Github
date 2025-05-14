@@ -73,45 +73,62 @@ git push
 
 Hazlo ejecutable:
 
-bash
-Copiar código
+<pre> 
+<code class="language-bash">
 chmod +x git-auto-push.sh
-🚀 Paso 2: Usar el script
+
+</code>
+</pre>
+
+### 🚀 Paso 2: Usar el script
 En la raíz de tu repositorio, ejecuta:
 
-bash
+<pre> 
+<code class="language-bash">
 Copiar código
 ./git-auto-push.sh "mensaje del commit"
+</code>
+</pre>
+
 O simplemente:
 
-bash
-Copiar código
+<pre> 
+<code class="language-bash">
 ./git-auto-push.sh
+</code>
+</pre>
+
 Y usará el mensaje por defecto: "Actualización automática"
 
 ### 💡 Ejemplo real de uso
-Escenario:
-Estás trabajando en un proyecto llamado mi-proyecto/, haces cambios en index.html y style.css. Quieres subir los cambios rápidamente sin escribir todo cada vez.
+Estás trabajando en un proyecto llamado mi-proyecto/, haces cambios en index.html y style.css. 
+Quieres subir los cambios rápidamente sin escribir todo cada vez.
 
 Lo que haces:
-bash
-Copiar código
+
+<pre> 
+<code class="language-bash">
 cd mi-proyecto/
 code index.html      # haces tus cambios
 ./git-auto-push.sh "Actualizo el diseño de la página"
+</code>
+</pre>
+
 Resultado:
 
-Se agregan todos los archivos
+- Se agregan todos los archivos
+- Se crea un commit con ese mensaje
+- Se hace push a tu repositorio (ej. GitHub)
 
-Se crea un commit con ese mensaje
-
-Se hace push a tu repositorio (ej. GitHub)
-
-⚠️ Consejo adicional: ¿Y si estás en otra rama?
+#### ⚠️ Consejo adicional: ¿Y si estás en otra rama?
 Puedes adaptar el script para detectar la rama automáticamente:
 
-bash
-Copiar código
+<pre> 
+<code class="language-bash">
 branch=$(git symbolic-ref --short HEAD)
 git push origin "$branch"
+
+</code>
+</pre>
+
 
