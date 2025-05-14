@@ -45,4 +45,14 @@ En proyectos de larga duración o abiertos (open source), proteger ramas te ayud
 - En proyectos personales o de prueba, donde tú eres el único colaborador.
 - En repositorios temporales donde no necesitas control de calidad o revisión.
 - Al inicio de un proyecto si aún estás en fase experimental y haces cambios rápidos.
-
+## ⚙️ Configuración de Ramas Protegidas
+![Rama](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/rama-protegida.png)
+Github nos permite configurar la rama protegida para conservar un buen flujo de trabajo y asegurar la calidad de código.
+- Requerir un número mínimo de revisores.
+- Requerir que los cheques de estado pasen antes de hacer merge.
+- Impedir push forzados
+- Impedir la eliminación de la rama.
+- Permitir solo merges con squash o rebase.
+- Restringir quién puede hacer push a la rama.
+- Exigir la revisión de los propietarios del código.
+- Descartar las aprobaciones de solicitud de incorporación de cambios obsoletos cuando se inserten confirmaciones nuevas.
