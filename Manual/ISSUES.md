@@ -33,6 +33,26 @@ Esto asegura que cuando el pull request se fusione, el Issue se cierre automáti
 git commit -m "Corrige error de inicio de sesión. Fixes #45"
 ```
 
+### 📋 Uso de plantillas de Issues
+GitHub permite crear plantillas personalizadas de Issues para organizar el tipo de información que los colaboradores deben incluir.
+Puedes crear plantillas para:
+- Reportes de errores
+- Propuestas de funcionalidades
+- Solicitudes de ayuda
+
+Estas plantillas mejoran la uniformidad y evitan que se omita información importante
+
+### 📊 Visualización y filtros
+En la pestaña Issues puedes:
+- Filtrar por estado: abiertos o cerrados
+- Filtrar por etiquetas, responsables o hitos
+- Usar búsquedas avanzadas (por ejemplo: is:open label:bug)
+
+### 🔔 Notificaciones y seguimiento
+- Puedes suscribirte a un Issue para recibir notificaciones de cambios o comentarios.
+
+- También puedes @mencionar a personas para que participen directamente en un Issue.
+
 
 ## Issues y Projects
 Los Issues y los Projects están diseñados para trabajar juntos, proporcionando un flujo de trabajo integral para la gestión de proyectos en GitHub.
