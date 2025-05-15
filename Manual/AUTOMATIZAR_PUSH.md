@@ -121,8 +121,10 @@ git push origin "$branch"
 `chmod +x git_automation.sh`
 
 `./git_automation.sh`
+
 3. Para probarla que el script es ejecutable se crea un archivo de texto de prueba.
 `cat > prueba.txt`
+
 4. Correr el script y efectivamente se sube automaticamente.
 ![Automatización](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/Automatizacion2.png)
 > 👀 NOTA: Un punto importante es que en el scrpit al escribir el push, se tiene que especificar la rama.
