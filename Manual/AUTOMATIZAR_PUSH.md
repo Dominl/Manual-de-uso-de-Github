@@ -117,7 +117,9 @@ git push origin "$branch"
 ![Automatización](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/Automatizacion1.png)
 > Scrip de  `git_automation`
 2. El primer comando hace que el script sea ejecutable. Es necesario para poder correrlo directamente con `./git_automation.sh`.
+
 `chmod +x git_automation.sh`
+
 `./git_automation.sh`
 3. Para probarla que el script es ejecutable se crea un archivo de texto de prueba.
 `cat > prueba.txt`
