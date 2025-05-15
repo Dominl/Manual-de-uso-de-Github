@@ -66,6 +66,8 @@ También puedes agrupar por prioridad, estado, responsable, etc
 9. Conectar con repositorios
 En la columna de la izquierda, haz clic en “Repository” y selecciona los repositorios de donde tomarás issues o pull requests.
 
+
+5. Seleccionar la visibilidad y crear el nuevo proyecto.
 ## Automatización de Proyectos
 ## Ventajas de usar Projects
 -   **Visualización del Avance**: Proporcionan una representación clara del estado de las tareas.
@@ -73,3 +75,5 @@ En la columna de la izquierda, haz clic en “Repository” y selecciona los rep
 -   **Colaboración Eficiente**: Fomentan el trabajo en equipo mediante una visión compartida de responsabilidades y avances.
 -   **Adaptabilidad**: Se ajustan a diferentes estilos de trabajo gracias a sus opciones personalizables.
 -   **Integración**: Vinculan directamente _issues_ y _pull requests_, asegurando coherencia y accesibilidad.
+
+

@@ -1,0 +1,12 @@
+💡 Ejemplo real de uso
+Estás trabajando en un proyecto llamado mi-proyecto/, haces cambios en index.html y style.css. Quieres subir los cambios rápidamente sin escribir todo cada vez.
+
+cd mi-proyecto/
+code index.html      # haces tus cambios
+./git-auto-push.sh "Actualizo el diseño de la página"
+
+Resultado:
+
+Se agregan todos los archivos
+Se crea un commit con ese mensaje
+Se hace push a tu repositorio (ej. GitHub)
