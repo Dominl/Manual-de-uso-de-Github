@@ -35,7 +35,7 @@ Pull request es una solicitud para que los cambios realizados del repositorio de
 3. Llegado a este paso podremos visualizar en la pestañas superiores: los archivos modificados, los commits realizados en el git, los chequest y la conversación.
 ![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pullrequest3.png)
 4. Cuando se halla revisado los cambios nuevos y de no haber **conflictos** procedemos a fusionar las ramas en **mergen pull request**.
-![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pull-Jhojha1.png)  
+ 
 6. Confirmar la fusión y por ultimo eliminamos la rama.
 ![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pullrequest4.png)
 
@@ -58,11 +58,41 @@ Esto se hace:
 
 > Nota: Los cambios que realizados en el fork no afectaran al original.
 
-> Se acepto las mejoras y el autor autor lo implemento en su repositorio
-![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pull-Jhojha2.png)
 
 Si se desea contribuir con el repositorio original debemos solicitar un pull requests al autor desde el fork creado y modificado, en case de aprobar la solicitud se podrá visualizar en el repositorio original
 
 ### ¿Se realizaron cambios en el repositorio original?
 
 Se debe abrir el fork del repositorio e ir a :arrows_counterclockwise: syn fork, se dará la opción de comparas los cambios que se realizaron, se realiza la sincronización que traerá los cambios del repositorio original a mi fork.
+
+## Pull Requests de  un Repositorio público desde una rama local
+Si se tiene el caso de que se quiere contribuir a un repositorio público, pero no es posible realizar un fork ni es colaborador, entonces optamos por esta opción:
+1. Clonar el repositorio:
+   - Crear una nueva rama
+     ```bash
+     git checkout -b mi-rama-de-cambios
+     ```
+   - Realizar cambios y hacer commit  de los cambios.
+2. Generar un archivo *patch*
+   ```bash
+   git format-patch origin/main --stdout > cambios.patch
+   ```
+   que contendra las diferencias de la versión local y la original.
+3. Enviar el archivo al propietario por medio de GitHub, usar un issue para esto:
+   - Dirigirse al repositorio en GitHub donde se desea contribuir.
+   - Ir a la pestaña Issues y crear un nuevo issue.
+4. Escribir el título y la descripción.
+   ![pull](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pull-Jhojha1.png) 
+6. Especificar como el autor tiene que ejecutar el archivo en caso desee aceptar la contribución.
+   - Descargar el archivo.
+   - Tener clonado el repositorio original.
+   - Guardar dentro del repositorio el archivo adjuntado.
+   - Ejecutar ``` git am cambios.patch``` en el git.
+7. Adjuntar archivo como enlace:
+   - Subirlo antes a una plataforma de almacenamiento como Google Drive
+8. Revisar y enviar el issue
+
+> El autor debera revisar el contenido con git status y visualizará las diferencias con git diff, ejecutar con git add . y git commit -m "Aplicados cambios del archivo patch enviado por [tu nombre]" . En caso quiere subir los cambios es necesario usar un push.
+
+> Se acepto las mejoras y el autor lo implemento en su repositorio.
+![pull](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pull-Jhojha2.png) 
