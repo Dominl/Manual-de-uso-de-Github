@@ -1,0 +1,56 @@
+1. Configurar rama protegida
+En GitHub, ir a:
+Settings > Branches > Add branch protection rule
+
+Escribir: main
+
+Activar:
+
+✅ Require a pull request before merging
+
+✅ Require approvals (1 mínimo)
+
+✅ Require status checks to pass before merging (ej. pruebas con GitHub Actions)
+
+✅ Do not allow direct pushes
+
+✅ Do not allow force pushes
+
+✅ Do not delete branch
+
+2. Flujo de trabajo
+ 
+- crear una rama
+git checkout -b feature/nueva-seccion
+
+- hace cambios y los sube:
+git commit -am "Agrega nueva sección de contacto"
+git push origin feature/nueva-seccion
+
+3. Abre un Pull Request (PR) hacia main en GitHub.
+
+👨 Luis revisa el código:
+Entra al PR.
+
+Comenta mejoras o aprueba si está todo bien.
+
+Da su aprobación.
+
+🤖 GitHub Actions corre pruebas:
+Se ejecuta automáticamente el pipeline (ejemplo: pruebas con npm test).
+
+Si todas las pruebas pasan, GitHub habilita el botón de merge.
+
+✅ Carla hace merge del PR:
+Solo después de la aprobación + pruebas exitosas.
+
+El código queda en main, listo para producción.
+
+🔐 Resultado
+Nadie pudo hacer push directo a main.
+
+El código fue revisado por otro desarrollador.
+
+Las pruebas pasaron antes del merge.
+
+La rama main se mantiene estable y segura.

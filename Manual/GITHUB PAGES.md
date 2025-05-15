@@ -137,3 +137,10 @@ https://tu_usuario.github.io/mi-sitio-web/
 
 ![URL publicado](https://raw.githubusercontent.com/Dominl/Manual-de-uso-de-Github/refs/heads/main/Imagenes/GITHUB%20PAGES.PNG)
 
+> Hacer actualización y cambios
+> Cada vez  que realices cambios en tu sitio, repite los pasos de agregar, hacer commit y enviar los cambios a Git hub:
+```bash
+git add .
+git commit -m "Actualización del sitio web"
+git push origin main
+```
