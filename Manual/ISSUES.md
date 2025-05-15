@@ -11,6 +11,6 @@ El uso de Issues es GitHub es fundamental para la comunicación de los colaborad
 
 ## Issues y Projects
 Los Issues y los Projects están diseñados para trabajar juntos, proporcionando un flujo de trabajo integral para la gestión de proyectos en GitHub.
- - **Issues: ** Son notas que tienen titulo y descripción que escribimos para mejorar la comunicación con los demás colaboradores. 
+ - **Issues:** Son notas que tienen titulo y descripción que escribimos para mejorar la comunicación con los demás colaboradores. 
  -  **Projects:** Es como un tablero de notas organizado por columnas (hacer, pendiente y terminado) en el cual se van movilizando las "notas". 
 **En ese sentido cada Issues vendría siendo una nota que pegamos a nuestro tablero de Projects para el resto de nuestros colaboradores. Y el Projects es el organizador visual de nuestros Issues y como estos avanzan a lo largo del repositorio.**
