@@ -34,8 +34,9 @@ Pull request es una solicitud para que los cambios realizados del repositorio de
 ![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pullrequests2.png)
 3. Llegado a este paso podremos visualizar en la pestañas superiores: los archivos modificados, los commits realizados en el git, los chequest y la conversación.
 ![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pullrequest3.png)
-4. Cuando se halla revisado los cambios nuevos y de no haber **conflictos** procedemos a fusionar las ramas en **mergen pull request**. 
-5. Confirmar la fusión y por ultimo eliminamos la rama.
+4. Cuando se halla revisado los cambios nuevos y de no haber **conflictos** procedemos a fusionar las ramas en **mergen pull request**.
+![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pull-Jhojha1.png)  
+6. Confirmar la fusión y por ultimo eliminamos la rama.
 ![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pullrequest4.png)
 
 #### Fusión de Ramas
@@ -55,7 +56,10 @@ Esto se hace:
 2. Crear la copia personal y listo podras visualizar el fork con tus demas repositorios
 ![Fusión ramas](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/Fork2.png)
 
-> Nota: Los cambios que realizados en el fork no afectaran al original. 
+> Nota: Los cambios que realizados en el fork no afectaran al original.
+
+> Se acepto las mejoras y el autor autor lo implemento en su repositorio
+![Pul requests](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/pull-Jhojha2.png)
 
 Si se desea contribuir con el repositorio original debemos solicitar un pull requests al autor desde el fork creado y modificado, en case de aprobar la solicitud se podrá visualizar en el repositorio original
 
