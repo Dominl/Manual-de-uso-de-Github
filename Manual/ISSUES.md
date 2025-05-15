@@ -59,3 +59,12 @@ Los Issues y los Projects están diseñados para trabajar juntos, proporcionando
  - **Issues:** Son notas que tienen titulo y descripción que escribimos para mejorar la comunicación con los demás colaboradores. 
  -  **Projects:** Es como un tablero de notas organizado por columnas (hacer, pendiente y terminado) en el cual se van movilizando las "notas". 
 **En ese sentido cada Issues vendría siendo una nota que pegamos a nuestro tablero de Projects para el resto de nuestros colaboradores. Y el Projects es el organizador visual de nuestros Issues y como estos avanzan a lo largo del repositorio.**
+
+## ✅ Buenas prácticas
+- Usa títulos claros y descriptivos.
+
+- Siempre agrega etiquetas (labels).
+
+- Cierra el issue cuando el problema haya sido resuelto.
+
+- Puedes usar el texto Fixes #número en un pull request para que se cierre automáticamente el issue al hacer merge
