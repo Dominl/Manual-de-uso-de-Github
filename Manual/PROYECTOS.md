@@ -68,7 +68,36 @@ En la columna de la izquierda, haz clic en “Repository” y selecciona los rep
 
 
 5. Seleccionar la visibilidad y crear el nuevo proyecto.
+
 ## Automatización de Proyectos
+GitHub Projects (especialmente los nuevos Projects, no los clásicos) permiten automatizar acciones 
+que suceden cuando se actualizan Issues o Pull Requests. Esto ayuda a mantener el tablero actualizado sin intervención manual.
+
+### 🔧 ¿Qué se puede automatizar?
+- Mover tarjetas entre columnas automáticamente: 
+Ejemplo: Si un issue se cierra, se mueve a "Done".
+- Asignar automáticamente a una persona cuando se crea un issue o PR.
+- Agregar etiquetas según reglas.
+- Crear tareas automáticamente desde una plantilla.
+
+### ⚙️ ¿Cómo se configura la automatización?
+**Opción 1: Desde el panel del proyecto (nuevos Projects)**
+1. Abre el proyecto.
+2. Clic en los tres puntos arriba a la derecha → "Workflows" (Flujos de trabajo).
+3. GitHub te permite configurar reglas como:
+- "When issue is added → set status to 'To do'"
+- "When pull request is closed → set status to 'Done'"
+- "When status is 'Done' → close issue"
+
+> 🧠Automatización más avanzada con GitHub Actions:
+> si quieres llevar la automatización más lejos (por ejemplo, mover tarjetas según comentarios o cambios complejos), puedes usar GitHub Actions + la API de GitHub > Projects.
+
+### ✅ Ventajas de Automatizar Proyectos
+- Evitas tareas repetitivas (como mover tarjetas a mano).
+- Mantienes los tableros siempre actualizados.
+- Puedes enfocar más tiempo en escribir código y menos en administrar el tablero.
+- Ayuda en equipos grandes a mantener claridad.
+
 ## Ventajas de usar Projects
 -   **Visualización del Avance**: Proporcionan una representación clara del estado de las tareas.
 -   **Centralización**: Consolidan la información relevante en un solo lugar.
