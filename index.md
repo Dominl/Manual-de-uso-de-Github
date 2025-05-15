@@ -8,10 +8,12 @@ Este proyecto tiene como objetivo introducir a estudiantes y nuevos usuarios al 
 
 ## 🧠 ¿Qué encontrarás en este proyecto?
 
-- Conceptos fundamentales como ramas, commits y pull requests
+- Conceptos fundamentales como ramas, commits y pull requests.
 - Uso de herramientas como **GitHub Copilot** y **Issues**
-- Prácticas recomendadas para trabajar en equipo desde GitHub
-- Documentación dividida en secciones simples y claras
+- Prácticas recomendadas para trabajar en equipo desde GitHub.
+- Documentación dividida en secciones simples y claras.
+- Uso práctico de GitHub Pages para publicar sitios web.
+
 
 ---
 
@@ -22,3 +24,4 @@ Promover el uso de GitHub como herramienta educativa y profesional para el desar
 ---
 
 📌 *Este sitio fue construido con GitHub Pages como parte del aprendizaje práctico del curso.*
+🧩 *Este manual está abierto a contribuciones. Si tienes algo que agregar o mejorar, ¡participa!*
