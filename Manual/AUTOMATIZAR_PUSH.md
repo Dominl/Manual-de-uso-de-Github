@@ -113,13 +113,14 @@ git push origin "$branch"
 ```
 ## Aplicación en un repositorio
 1. Abrir el Editor nano para crear el archivo `git_automation`, en dónde se irá el `git add .`, `git commit` y `git psuh` para la automatización.
+`nano git_automation.sh`
 ![Automatización](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/Automatizacion1.png)
-![Automatización](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/Automatizacion2.png)
 > Scrip de  `git_automation`
 2. El primer comando hace que el script sea ejecutable. Es necesario para poder correrlo directamente con `./git_automation.sh`.
-![Automatización](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/Automatizacion3.png)
+`chmod +x git_automation.sh`
+`./git_automation.sh`
 3. Para probarla que el script es ejecutable se crea un archivo de texto de prueba.
-![Automatización](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/Automatizacion4.png)
+`cat > prueba.txt`
 4. Correr el script y efectivamente se sube automaticamente.
-![Automatización](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/Automatizacion5.png)
+![Automatización](https://github.com/Dominl/Manual-de-uso-de-Github/blob/main/Imagenes/Automatizacion2.png)
 > 👀 NOTA: Un punto importante es que en el scrpit al escribir el push, se tiene que especificar la rama.
