@@ -1,4 +1,4 @@
-# Trabajos Colaborativos  
+# 💪 Trabajos Colaborativos  
 Para comenzar un trabajo colaborativo en GitHub primero se debe crear un repositorio y añadir a tus colaboradores. 
 Se procede a clonar el repositorio en nuestro escritorio local.
 ```bash
